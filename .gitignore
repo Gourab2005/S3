@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log*
+package-lock.json
+
+# Environment variables
+.env
+
+# Build files
+dist/
+out/
+build/
+.vite/
+*.vite.lock
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Flask/Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.joblib
+*.json
+
+# IDE & System files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+Thumbs.db
+.DS_Store
+
+# Uploads (if dynamically generated)
+uploads/
+
+# Git LFS for large files
+*.joblib
+
